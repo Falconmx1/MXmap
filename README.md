@@ -7,3 +7,8 @@ Herramienta de escaneo de puertos y redes, estilo nmap, optimizada para Termux.
 git clone https://github.com/Falconmx1/MXMap
 cd MXMap
 bash install.sh
+
+🎯 Comandos
+mxmap -t 192.168.1.1
+mxmap -p 22,80,443 -t google.com
+mxmap --scan-type syn -t 192.168.0.1/24
